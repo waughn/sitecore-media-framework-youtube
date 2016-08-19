@@ -1,0 +1,76 @@
+----item----
+version: 1
+id: {4CAB5190-E569-46AE-9F6E-A4211F2F7FCB}
+database: master
+path: /sitecore/templates/MediaFramework/YouTube/YouTubeAccountSettings/__Standard Values
+parent: {0FBC2224-0715-481F-9959-118F10B90948}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {0FBC2224-0715-481F-9959-118F10B90948}
+templatekey: YouTubeAccountSettings
+
+----field----
+field: {12112D15-A3DE-4B42-A700-DE1B9666391B}
+name: PlaybackEventsRules
+key: playbackeventsrules
+content-length: 562
+
+<ruleset>
+  <rule uid="{319E0CB9-CA14-4946-A74D-B3C3FE248254}">
+    <conditions>
+      <condition id="{4888ABBB-F17D-4485-B14B-842413F88732}" uid="60E5DA2D64394100BDAD078A88BABCB6" />
+    </conditions>
+    <actions>
+      <action id="{9850DB80-D70F-410B-9A5C-E825B4DE8F94}" uid="52016CFA707F47DDB360F82D54EEA42A" />
+      <action id="{209A6D7F-D645-4606-8B63-678149DCDB5F}" uid="D804146883F8478191A4D615CB1920AD" />
+      <action id="{0FD811D2-CEC2-4121-A78C-936E579E2377}" uid="B39C7EE097C44785B1E0840081A3BE9F" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 925167c5-1e8f-4741-a68b-ac14f356ca95
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140314T122804
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+925167c5-1e8f-4741-a68b-ac14f356ca95
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140314T123055:635303970550275761
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

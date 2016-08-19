@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C3E2C5EC-75FD-46D8-88C3-28D98E3F0EAB}
+database: master
+path: /sitecore/system/Settings/Rules/Command Rules/Rules
+parent: {5358D4F1-9346-4269-9BD9-BA320DA4B81B}
+name: Rules
+master: {00000000-0000-0000-0000-000000000000}
+template: {8EA2CF67-4250-47A2-AECA-4F70FD200DC7}
+templatekey: Rules Folder
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 07ee07d4-fc83-498b-95bb-ffb393140e2d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131111T120022
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+07ee07d4-fc83-498b-95bb-ffb393140e2d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131111T173148:635197879083421260
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

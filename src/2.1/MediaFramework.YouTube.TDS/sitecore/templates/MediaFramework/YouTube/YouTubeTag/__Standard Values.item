@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {5765BAD1-8069-46C6-9829-AFCAEC8C0DE8}
+database: master
+path: /sitecore/templates/MediaFramework/YouTube/YouTubeTag/__Standard Values
+parent: {77D9FD44-E388-4534-B37D-A8F9AB8504B6}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {77D9FD44-E388-4534-B37D-A8F9AB8504B6}
+templatekey: YouTubeTag
+
+----field----
+field: {C9283D9E-7C29-4419-9C28-5A5C8FF53E84}
+name: __Bucketable
+key: __bucketable
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 257a172e-447a-46c3-9bd3-0e25146f48ab
+
+----field----
+field: {9F3258E9-20BA-4036-ADF4-D55DBF4FE8BD}
+name: Name
+key: name
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20140314T214851
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+257a172e-447a-46c3-9bd3-0e25146f48ab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20140314T230646:635304352065018286
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

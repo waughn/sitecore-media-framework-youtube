@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {D66400F5-D088-495D-B0AA-FB1BC3945287}
+database: master
+path: /sitecore/templates/Branches/Media Framework/YouTube/YouTubeAccountPublicBranch/$name/Players/DefaultPlayer
+parent: {E4ED2615-E24D-40F7-8258-BFEFB73556AA}
+name: DefaultPlayer
+master: {00000000-0000-0000-0000-000000000000}
+template: {0F7FE2A5-57CD-489E-AB4A-DA7FD34D1561}
+templatekey: YouTubeVideoPlayer
+
+----version----
+language: en
+version: 1
+revision: e8390ca8-7391-4be0-bad9-a5b2fb6cd50f
+
+----field----
+field: {ADA87927-71A6-4550-8004-590CC01645B4}
+name: Id
+key: id
+content-length: 1
+
+1
+----field----
+field: {0DA16DB8-0863-4867-AC94-A29D403C29B1}
+name: Name
+key: name
+content-length: 14
+
+Default Player
+----field----
+field: {CCDF0521-383A-4CEC-B0BC-DF923CF73258}
+name: IsDefault
+key: isdefault
+content-length: 1
+
+1
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 14
+
+Default Player
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140320T103941
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e8390ca8-7391-4be0-bad9-a5b2fb6cd50f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140321T024718:635309668384977034
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

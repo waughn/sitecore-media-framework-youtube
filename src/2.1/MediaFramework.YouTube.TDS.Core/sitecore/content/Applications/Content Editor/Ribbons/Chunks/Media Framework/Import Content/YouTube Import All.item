@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {301D27D2-5DD2-4B8B-8D25-2DB57DC82391}
+database: core
+path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Media Framework/Import Content/YouTube Import All
+parent: {F2951B80-4390-477E-A835-53CA9AC5FC4A}
+name: YouTube Import All
+master: {00000000-0000-0000-0000-000000000000}
+template: {97B61451-9A75-4F59-93A5-DBD8D4F44421}
+templatekey: Large Menu Combo Button
+
+----field----
+field: {F5A07916-7BCA-4FBA-857C-A5D166C332D4}
+name: Icon
+key: icon
+content-length: 27
+
+applications/24x24/undo.png
+----field----
+field: {FC6B80F1-406D-47F0-A2B3-FCD7A8EA9D74}
+name: Click
+key: click
+content-length: 65
+
+mediaFramework:ManualImport:YouTube(scope=import_youtube_content)
+----field----
+field: {3F5BD18E-8CEE-4CD5-9EE3-77863947B312}
+name: Menu
+key: menu
+content-length: 90
+
+/sitecore/content/Applications/Content Editor/Menues/Media Framework/Manual Import/YouTube
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+Applications/32x32/undo.png
+----version----
+language: en
+version: 1
+revision: 938613cb-7a05-4ea8-bcb7-11f5ff543bea
+
+----field----
+field: {B11F9F5F-88FC-48C5-9501-2E827EF40EAD}
+name: Header
+key: header
+content-length: 10
+
+Import All
+----field----
+field: {DB8C4E34-586C-4DED-BC95-B993FC3A01A8}
+name: Tooltip
+key: tooltip
+content-length: 34
+
+Import all content for the account
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130619T152400
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+938613cb-7a05-4ea8-bcb7-11f5ff543bea
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140319T222127:635308644870174695
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

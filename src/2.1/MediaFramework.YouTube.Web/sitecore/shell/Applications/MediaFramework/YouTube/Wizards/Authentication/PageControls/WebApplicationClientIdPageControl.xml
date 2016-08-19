@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <WebApplicationClientIdPageControl def:inherits="Sitecore.SharedSource.MediaFramework.YouTube.Wizards.Authentication.PageControls.WebApplicationClientIdPageControl,Sitecore.SharedSource.MediaFramework.YouTube">
+    <table width="100%">
+      <tr valign="top">
+        <td>
+          <Literal Class="informationLabel" Text="Client Id:" />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <Edit ID="ClientId" Style="margin-top: 2px;" Width="100%" Change="WebApplicationClientIdPageControl:OnClientInformationChanged" />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td style="padding-top: 15px;">
+          <Literal Class="informationLabel" Text="Client Secret:" />
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <Edit ID="ClientSecret" Style="margin-top: 2px;" Width="100%" Change="WebApplicationClientIdPageControl:OnClientInformationChanged"/>
+        </td>
+      </tr>
+    </table>
+  </WebApplicationClientIdPageControl>
+</control>

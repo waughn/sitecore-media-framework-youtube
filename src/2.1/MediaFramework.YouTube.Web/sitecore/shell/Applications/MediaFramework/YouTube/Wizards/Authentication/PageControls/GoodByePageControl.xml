@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <GoodByePageControl def:inherits="Sitecore.SharedSource.MediaFramework.YouTube.Wizards.Authentication.PageControls.GoodByePageControl,Sitecore.SharedSource.MediaFramework.YouTube">
+    <Border>
+      <Literal Text="The wizard has completed."/>
+    </Border>
+  </GoodByePageControl>
+</control>
+

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaFramework.YouTube", "MediaFramework.YouTube\MediaFramework.YouTube.csproj", "{A316AF4C-EC2A-4FDC-9A94-17362D0E53EB}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MediaFramework.YouTube.TDS", "MediaFramework.YouTube.TDS\MediaFramework.YouTube.TDS.scproj", "{24684A63-1646-4F37-8B55-9EB904547947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaFramework.YouTube.Web", "MediaFramework.YouTube.Web\MediaFramework.YouTube.Web.csproj", "{1237CA78-8E52-4563-80C4-D97182F9C950}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "MediaFramework.YouTube.TDS.Core", "MediaFramework.YouTube.TDS.Core\MediaFramework.YouTube.TDS.Core.scproj", "{D85734EF-5EEA-4B23-A931-93C1E6B6198D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A316AF4C-EC2A-4FDC-9A94-17362D0E53EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A316AF4C-EC2A-4FDC-9A94-17362D0E53EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A316AF4C-EC2A-4FDC-9A94-17362D0E53EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A316AF4C-EC2A-4FDC-9A94-17362D0E53EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24684A63-1646-4F37-8B55-9EB904547947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24684A63-1646-4F37-8B55-9EB904547947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24684A63-1646-4F37-8B55-9EB904547947}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{24684A63-1646-4F37-8B55-9EB904547947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24684A63-1646-4F37-8B55-9EB904547947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24684A63-1646-4F37-8B55-9EB904547947}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1237CA78-8E52-4563-80C4-D97182F9C950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1237CA78-8E52-4563-80C4-D97182F9C950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1237CA78-8E52-4563-80C4-D97182F9C950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1237CA78-8E52-4563-80C4-D97182F9C950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85734EF-5EEA-4B23-A931-93C1E6B6198D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85734EF-5EEA-4B23-A931-93C1E6B6198D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85734EF-5EEA-4B23-A931-93C1E6B6198D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D85734EF-5EEA-4B23-A931-93C1E6B6198D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85734EF-5EEA-4B23-A931-93C1E6B6198D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85734EF-5EEA-4B23-A931-93C1E6B6198D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

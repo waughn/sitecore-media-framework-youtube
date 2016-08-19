@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <YouTubeAuthenticationWizard>
+    <WizardForm CodeBeside="Sitecore.SharedSource.MediaFramework.YouTube.Wizards.Authentication.AuthenticationWizardForm,Sitecore.SharedSource.MediaFramework.YouTube">
+      <WizardFormFirstPage ID="WelcomePage" Icon="MediaFramework/YouTube/48x48/YouTube-Icon.png">
+        <WelcomePageControl ID="WelcomePageContent" />
+      </WizardFormFirstPage>
+      <WizardFormPage ID="WebApplicationClientIdPage" Header="Client Id for Web application" Text="Specify the Client Id for the Web application." Icon="Applications/48x48/gears.png">
+        <WizardFormIndent>
+          <WebApplicationClientIdPageControl ID="WebApplicationClientIdPageContent" />
+        </WizardFormIndent>
+      </WizardFormPage>
+      <WizardFormPage ID="DefineScopesPage" Header="Select OAuth 2.0 Scopes" Text="Scopes are used to grant an application different levels of access to data on behalf of the end user." Icon="Applications/48x48/gears.png">
+        <WizardFormIndent>
+          <DefineScopesPageControl ID="DefineScopesPageContent" />
+        </WizardFormIndent>
+      </WizardFormPage>
+      <WizardFormPage ID="WaitForAuthPage" Header="Authentication" Text="Please wait while the authorization process is completed." Icon="Network/48x48/environment.png">
+        <WizardFormIndent>
+          <WaitForAuthPageControl ID="WaitForAuthPageContent" />
+        </WizardFormIndent>
+      </WizardFormPage>
+      <WizardFormLastPage ID="GoodByePage" Icon="MediaFramework/YouTube/48x48/YouTube-Icon.png">
+        <GoodByePageControl ID="GoodByePageContent" />
+      </WizardFormLastPage>
+    </WizardForm>
+  </YouTubeAuthenticationWizard>
+</control>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A316AF4C-EC2A-4FDC-9A94-17362D0E53EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sitecore.SharedSource.MediaFramework.YouTube</RootNamespace>
+    <AssemblyName>Sitecore.SharedSource.MediaFramework.YouTube</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\lib\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch">
+      <HintPath>..\lib\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch.Linq">
+      <HintPath>..\lib\Sitecore.ContentSearch.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Integration.Common">
+      <HintPath>..\lib\Sitecore.Integration.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.MediaFramework">
+      <HintPath>..\lib\Sitecore.MediaFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.RestSharp">
+      <HintPath>..\lib\Sitecore.RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analytics\PlaylistEventTrigger.cs" />
+    <Compile Include="Analytics\VideoEventTrigger.cs" />
+    <Compile Include="Authentication\IAuthenticationExecuter.cs" />
+    <Compile Include="Authentication\BaseAuthenticator.cs" />
+    <Compile Include="Authentication\RefreshTokenAuthenticator.cs" />
+    <Compile Include="Authentication\TokenAuthenticator.cs" />
+    <Compile Include="Cleanup\ExtendedCleanupExecuterBase.cs" />
+    <Compile Include="Cleanup\TagCleanupExecuter.cs" />
+    <Compile Include="Cleanup\PlaylistCleanupExecuter.cs" />
+    <Compile Include="Cleanup\AssetCleanupExecuter.cs" />
+    <Compile Include="Commands\AuthenticationCommand.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Entities\SearchResult.cs" />
+    <Compile Include="Entities\Asset.cs" />
+    <Compile Include="Entities\Channel.cs" />
+    <Compile Include="Entities\Channels\Statistics.cs" />
+    <Compile Include="Entities\Collections\PagedCollection.cs" />
+    <Compile Include="Entities\Common\BaseSnippet.cs" />
+    <Compile Include="Entities\Common\Thumbnail.cs" />
+    <Compile Include="Entities\Common\Thumbnails.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\PlaylistItem.cs" />
+    <Compile Include="Entities\Common\Resource.cs" />
+    <Compile Include="Entities\PlaylistItems\ContentDetails.cs" />
+    <Compile Include="Entities\Tag.cs" />
+    <Compile Include="Entities\Token.cs" />
+    <Compile Include="Entities\Video.cs" />
+    <Compile Include="Entities\Videos\ContentDetails.cs" />
+    <Compile Include="Entities\Playlist.cs" />
+    <Compile Include="Entities\Videos\Statistics.cs" />
+    <Compile Include="Entities\Common\Status.cs" />
+    <Compile Include="Import\EntityCollectionImporter.cs" />
+    <Compile Include="Import\PlaylistItemCollectionImporter.cs" />
+    <Compile Include="Import\PlaylistCollectionImporter.cs" />
+    <Compile Include="Import\ChannelCollectionImporter.cs" />
+    <Compile Include="Import\ChannelVideoCollectionImporter.cs" />
+    <Compile Include="Import\TagCollectionImporter.cs" />
+    <Compile Include="Import\VideoCollectionImporter.cs" />
+    <Compile Include="Indexing\Entities\PlaylistItemSearchResult.cs" />
+    <Compile Include="Indexing\Entities\VideoSearchResult.cs" />
+    <Compile Include="Indexing\Entities\TagSearchResult.cs" />
+    <Compile Include="Indexing\Entities\AssetSearchResult.cs" />
+    <Compile Include="Indexing\Entities\PlaylistSearchResult.cs" />
+    <Compile Include="Indexing\Entities\ChannelSearchResult.cs" />
+    <Compile Include="Players\YouTubePlayerMarkupGenerator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\YouTubeAccount.cs" />
+    <Compile Include="Security\YouTubeAuthenticator.cs" />
+    <Compile Include="Synchronize\EntityCreators\AssetEntityCreator.cs" />
+    <Compile Include="Synchronize\EntityCreators\PlaylistEntityCreator.cs" />
+    <Compile Include="Synchronize\EntityCreators\PlaylistItemEntityCreator.cs" />
+    <Compile Include="Synchronize\EntityCreators\ChannelEntityCreator.cs" />
+    <Compile Include="Synchronize\EntityCreators\TagEntityCreator.cs" />
+    <Compile Include="Synchronize\EntityCreators\VideoEntityCreator.cs" />
+    <Compile Include="Synchronize\Fallback\AssetFallback.cs" />
+    <Compile Include="Synchronize\Fallback\PlaylistFallback.cs" />
+    <Compile Include="Synchronize\Fallback\PlaylistItemFallback.cs" />
+    <Compile Include="Synchronize\Fallback\ChannelFallback.cs" />
+    <Compile Include="Synchronize\Fallback\TagFallback.cs" />
+    <Compile Include="Synchronize\Fallback\VideoFallback.cs" />
+    <Compile Include="Synchronize\References\ChannelVideosSynchronizer.cs" />
+    <Compile Include="Synchronize\References\ChannelPlaylistsSynchronizer.cs" />
+    <Compile Include="Synchronize\References\PlaylistPlaylistItemsSynchronizer.cs" />
+    <Compile Include="Synchronize\References\VideoTagsSynchronizer.cs" />
+    <Compile Include="Synchronize\Synchronizers\AssetSynchronizer.cs" />
+    <Compile Include="Synchronize\Synchronizers\PlaylistSynchronizer.cs" />
+    <Compile Include="Synchronize\Synchronizers\PlaylistItemSynchronizer.cs" />
+    <Compile Include="Synchronize\Synchronizers\ChannelSynchronizer.cs" />
+    <Compile Include="Synchronize\Synchronizers\TagSynchronizer.cs" />
+    <Compile Include="Synchronize\Synchronizers\VideoSynchronizer.cs" />
+    <Compile Include="Templates.cs" />
+    <Compile Include="Wizards\Authentication\Authenticate.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wizards\Authentication\AuthenticationWizardForm.cs" />
+    <Compile Include="Wizards\Authentication\AuthenticationWizardPageChangingEventArgs.cs" />
+    <Compile Include="Wizards\Authentication\AuthenticationWizardPageChangedEventArgs.cs" />
+    <Compile Include="Wizards\Authentication\AuthenticationWizardPageControl.cs" />
+    <Compile Include="Wizards\Authentication\PageControls\DefineScopesPageControl.cs" />
+    <Compile Include="Wizards\Authentication\PageControls\GoodByePageControl.cs" />
+    <Compile Include="Wizards\Authentication\PageControls\WaitForAuthPageControl.cs" />
+    <Compile Include="Wizards\Authentication\PageControls\WebApplicationClientIdPageControl.cs" />
+    <Compile Include="Wizards\Authentication\PageControls\WelcomePageControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entities\Playlists\" />
+    <Folder Include="Entities\SearchResults\" />
+    <Folder Include="Export\" />
+    <Folder Include="Upload\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

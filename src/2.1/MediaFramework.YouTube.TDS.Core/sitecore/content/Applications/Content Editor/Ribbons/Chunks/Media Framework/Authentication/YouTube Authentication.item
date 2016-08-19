@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {A697052F-9402-46FA-A76E-0FAC6ED2CBFC}
+database: core
+path: /sitecore/content/Applications/Content Editor/Ribbons/Chunks/Media Framework/Authentication/YouTube Authentication
+parent: {E727EEC6-EC17-40AF-8C77-AA5B53E852B3}
+name: YouTube Authentication
+master: {00000000-0000-0000-0000-000000000000}
+template: {97B61451-9A75-4F59-93A5-DBD8D4F44421}
+templatekey: Large Menu Combo Button
+
+----field----
+field: {F5A07916-7BCA-4FBA-857C-A5D166C332D4}
+name: Icon
+key: icon
+content-length: 21
+
+Office/32x32/lock.png
+----field----
+field: {FC6B80F1-406D-47F0-A2B3-FCD7A8EA9D74}
+name: Click
+key: click
+content-length: 37
+
+mediaFramework:Authentication:YouTube
+----field----
+field: {3F5BD18E-8CEE-4CD5-9EE3-77863947B312}
+name: Menu
+key: menu
+content-length: 0
+
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 21
+
+Office/32x32/lock.png
+----version----
+language: en
+version: 1
+revision: bb4bcbad-bc29-48ef-b204-2ff4bfd32e52
+
+----field----
+field: {B11F9F5F-88FC-48C5-9501-2E827EF40EAD}
+name: Header
+key: header
+content-length: 12
+
+Authenticate
+----field----
+field: {DB8C4E34-586C-4DED-BC95-B993FC3A01A8}
+name: Tooltip
+key: tooltip
+content-length: 39
+
+Select scopes and authorize application
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20130619T152400Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bb4bcbad-bc29-48ef-b204-2ff4bfd32e52
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20160306T225605:635929017655039753Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

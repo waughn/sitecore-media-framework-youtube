@@ -1,0 +1,88 @@
+----item----
+version: 1
+id: {B3478711-4BA8-4638-8E44-4AF63A7C5152}
+database: master
+path: /sitecore/system/Settings/Rules/Command Rules/Rules/Authenticate YouTube Command State
+parent: {C3E2C5EC-75FD-46D8-88C3-28D98E3F0EAB}
+name: Authenticate YouTube Command State
+master: {00000000-0000-0000-0000-000000000000}
+template: {7253B883-CB72-4E80-887F-1B350D634DAD}
+templatekey: CommandStateRule
+
+----field----
+field: {2282BA71-ACCC-436A-A716-2E4DCAF71F6E}
+name: Command
+key: command
+content-length: 37
+
+mediaFramework:Authentication:YouTube
+----field----
+field: {AFF1F4C7-5425-49DD-8456-4D3061C77100}
+name: Rules
+key: rules
+content-length: 468
+
+<ruleset>
+  <rule uid="{95DAD009-5833-43A2-AB5A-1A27CDCC8AFA}">
+    <conditions>
+      <condition id="{83D94CB1-5123-4F67-9DEE-22586E8F2DE9}" uid="01BB3680B41342CB856F83B20BC6B539" templateid="{36979A85-ED0D-4748-B806-3AB29B505163}" />
+    </conditions>
+    <actions>
+      <action id="{11478F1A-62F2-4DE5-A927-295FFACD934B}" uid="79BFB0E86AC64D3DB2AB38CC071F6AD1" CommandStateId="{3F2F8F53-B8BA-476E-B93E-EE38C9E3432C}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 45f7dcce-b406-476c-8ba7-586e3410fe52
+
+----field----
+field: {D6092F70-DBA9-4F0B-96FC-BF69D7EDB31A}
+name: Name
+key: name
+content-length: 22
+
+YouTube Authentication
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20130620T181100Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+45f7dcce-b406-476c-8ba7-586e3410fe52
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20160309T045715:635930962358489986Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

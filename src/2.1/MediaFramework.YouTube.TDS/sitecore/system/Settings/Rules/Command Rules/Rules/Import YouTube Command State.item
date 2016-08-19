@@ -1,0 +1,91 @@
+----item----
+version: 1
+id: {05BEB41F-51FA-4996-BE18-54C084449E1C}
+database: master
+path: /sitecore/system/Settings/Rules/Command Rules/Rules/Import YouTube Command State
+parent: {C3E2C5EC-75FD-46D8-88C3-28D98E3F0EAB}
+name: Import YouTube Command State
+master: {00000000-0000-0000-0000-000000000000}
+template: {7253B883-CB72-4E80-887F-1B350D634DAD}
+templatekey: CommandStateRule
+
+----field----
+field: {2282BA71-ACCC-436A-A716-2E4DCAF71F6E}
+name: Command
+key: command
+content-length: 35
+
+mediaFramework:ManualImport:YouTube
+----field----
+field: {AFF1F4C7-5425-49DD-8456-4D3061C77100}
+name: Rules
+key: rules
+content-length: 692
+
+<ruleset>
+  <rule uid="{01967D8D-3E0F-44F5-AD99-AF73F2E4E892}">
+    <conditions>
+      <or uid="5C3D234769EA4BAD8251D07CBD7572FB">
+        <condition id="{83D94CB1-5123-4F67-9DEE-22586E8F2DE9}" uid="86670930BD81404D8187F83D97D72ECB" templateid="{36979A85-ED0D-4748-B806-3AB29B505163}" />
+        <condition id="{83D94CB1-5123-4F67-9DEE-22586E8F2DE9}" uid="411D5300BCD74FA8A625B24594574EF9" templateid="{7A67AB0E-1000-467D-9D91-AC837F56EC1A}" />
+      </or>
+    </conditions>
+    <actions>
+      <action id="{11478F1A-62F2-4DE5-A927-295FFACD934B}" uid="CEBA64F2888443F688A7CB1D2BA78E6C" CommandStateId="{3F2F8F53-B8BA-476E-B93E-EE38C9E3432C}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 3446753d-7070-4ac5-8705-00036a4ac33b
+
+----field----
+field: {D6092F70-DBA9-4F0B-96FC-BF69D7EDB31A}
+name: Name
+key: name
+content-length: 22
+
+YouTube Import Content
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130620T181100
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3446753d-7070-4ac5-8705-00036a4ac33b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140319T222424:635308646641576013
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

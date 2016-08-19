@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <WelcomePageControl def:inherits="Sitecore.SharedSource.MediaFramework.YouTube.Wizards.Authentication.PageControls.WelcomePageControl,Sitecore.SharedSource.MediaFramework.YouTube">
+    <Stylesheet Key="GalleryLanguages">
+      .scWizardSmallIcon {
+        border: none;
+      }
+    </Stylesheet>
+    <Border Class="scWizardWelcomeTitle">
+      <Literal ID="WelcomeTitle" Text="Welcome to the Create a YouTube Account Wizard." />
+    </Border>
+    <Literal ID="WelcomeMessage" Text="This wizard helps you add the client identification, select scopes and authorize application." />
+  </WelcomePageControl>
+</control>
+
